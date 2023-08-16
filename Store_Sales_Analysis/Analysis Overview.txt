@@ -1,0 +1,41 @@
+Dataset Introduction
+
+Store Sales Dataset contains two sheets of Data i.e, Orders and Revenue.
+Orders - This table contains order information like product, customer details, and shipping details like shipping address, package type.
+Revenue - This table contains Store sales, discounts, shipping charges. Also, it contains the Revenue of orders like Profit, loss, and discount.
+
+Business problem
+
+A Sales Manager wants to understand different priority orders with their order quantities and revenue generation on them to prepare Business Strategy accordingly. They also want to check which region stores are giving good Margins and a consistent number of orders over time.
+
+
+Performing Data Transformation on Store Sales Data before building Visuals:
+
+Steps Involved -
+
+1. Unnecessary columns or rows, if any, have been cleaned.
+2. I have split the 'Location' column in the Orders table using a custom delimiter, which is a colon ( : ), and the new columns have been renamed to 'Region' and 'State.'
+3. A new custom column named 'Discounted Shipping Price' has been added to the Revenue table. This was done by utilizing the formula (Shipping Cost - Discount).
+4. An Index Column named 'Order Sl. No' has been created in the Orders table, ranging from 1 and incremented by 1.
+5. The data type of Order ID, Order Sl. No, and Customer ID has been changed to text in the Orders Table.
+6. In the Revenue table, a conditional column named 'Profitable Order' has been added. The condition applied is Profit > 1000, and values have been provided as follows: 'Yes' if Profit > 1000, and 'No' otherwise.
+
+Dashboard Creation According To The Varios Needs Of The Sales Manager -
+
+1. A table visual to find out the Sales of specified order.
+2. A matrix visual to find out the total sales based on order priority, region, and customer ID and customer segment.
+3. A map visual to showcase the average shipping cost in that respective state.
+4. A KPI visual to note the sales and sales target by year.
+5. A line chart to visualize the profit and sales till now.
+6. A multi-card visual to track profit of specific product which contains name “Newell”.
+
+-- Slicers Involved --
+- Year, Quarter, Month, Day
+- Discount
+
+
+
+
+
+
+
