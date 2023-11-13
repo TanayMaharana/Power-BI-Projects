@@ -1,0 +1,42 @@
+||Total-Amount Wise Overview:||
+
+USA Dominance:
+- The top 5 invoice numbers all originate from the USA.
+- The total amount from the USA far surpasses other countries, indicative of a higher employee headcount.
+
+
+||Base-Month (January) Insights:||
+Initial Metrics:
+- Combined total amount for all countries is $248.59 million in January.
+- 5 million payslips processed during this month.
+
+
+||Current-Month (December) Insights:||
+Growth Metrics:
+- Total amount for December is $323.58 million, a 30% increase from the base month.
+- Payslips count rises to 8 million, a 60% surge compared to January.
+
+
+||(Per Payslip Cost) PPC-Wise Insights:||
+
+EMEA Vendor Analysis:
+- Top 3 PPC contributors in EMEA: Xcs Corp (92.83%), ABF Inc. (7.17%).
+- Globally, Xcs Corp dominates with 69.84%, followed by ABF Inc. at 21.25%.
+
+Optimization Strategy:
+- In EMEA, Serbia boasts the highest average PPC value.
+- PPC is calculated as Total Amount/Payslip Count, suggesting a need to either reduce the amount or increase the payslip count to lower PPC.
+- Consider adding more headcount to Serbia for generating more payslips and optimizing vendor costs.
+
+
+||Vendor-Wise Analysis:||
+
+Geographical Presence:
+- With the exception of ATL-Corp, all vendors operate in multiple countries.
+- Significant variance observed in average PPC values.
+
+Negotiation Potential:
+- Xcs Corp and ABF Inc. present the highest potential for negotiation.
+
+Rebate Consideration:
+- ABF Inc. is the sole vendor offering rebates, a crucial point for consideration.
